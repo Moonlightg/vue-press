@@ -1,0 +1,9 @@
+﻿安装依赖
+
+npm install (淘宝镜像 cnpm install)
+
+运行
+
+npm run docs:dev
+
+
