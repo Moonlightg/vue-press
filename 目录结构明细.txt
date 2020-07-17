@@ -1,0 +1,46 @@
+----web-press
+	|
+	|--dist // 打包后资源
+	|
+	|--docs // 文档开发中心
+	|   |
+	|   |-- .vuepress									// 核心板块
+	|   |   |
+	|   |   |--components                               // 组件
+	|   |   |   |
+	|   |   |   |--tui
+	|   |   |   |   |
+	|   |   |   |   |--icon.vue                         // 组件 - icon，在md文件中以<tui-icon></tui-icon>方式引用组件
+	|   |   |   |--breadcrumb                           // 组件 - 面包屑
+	|   |   |   |   
+	|   |   |   |--button                               // 组件 - 按钮
+	|   |   |   |   
+	|   |   |   |--color                                // 组件 - 配色
+	|   |   |   |   
+	|   |   |   |--table                                // 组件 - 表格
+	|   |   |   |   |
+	|   |   |   |   |--jqgrid
+	|   |   |   |   |
+	|   |   |   |   |--jqgridMini
+	|   |   |   |   |
+	|   |   |   |   |--jqgridSkinBlue
+	|   |   |   |   
+	|   |   |   |--web                                  // 前端web资源
+	|   |   |
+	|   |   |--public                                   // html静态资源目录
+	|   |   |
+	|   |   |--config.js                                // 网站配置，logo，标题，路由
+	|   |   |
+	|   |   |--enhanceApp.js                            // 扩展 VuePress 应用
+	|   |
+	|   |-- README.md 									// 首页配置
+	|   |
+	|   |-- tui(自定义文件夹 - 路由指向)                // 路由配置指向资源路径
+	|
+	|--node_modules
+	|
+	|--package-lock.json
+	|
+	|--package.json
+
+
